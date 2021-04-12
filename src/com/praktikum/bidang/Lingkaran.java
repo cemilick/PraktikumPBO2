@@ -27,12 +27,12 @@ public class Lingkaran implements MenghitungBidang {
     
     @Override
     public double luas() {
-        return 22/7 * this.jari2 * this.jari2; 
+        return ((double) 22/7) * this.jari2 * this.jari2; 
     }
 
     @Override
     public double keliling() {
-        return 22/7 * this.jari2 * 2;
+        return ((double) 22/7) * this.jari2 * 2;
     }
     
 }

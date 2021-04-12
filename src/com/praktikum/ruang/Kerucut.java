@@ -37,6 +37,6 @@ public class Kerucut extends Lingkaran implements MenghitungRuang{
         int r = this.jari2;
         int t = this.tinggi;
         double s = Math.sqrt((r*r)+(t*t));
-        return 22/7 * r * (r + s);
+        return ((double) 22/7) * r * (r + s);
     }
 }
